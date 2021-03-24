@@ -1,0 +1,4 @@
+/mnt/g/src/inference/OpenVINO/OpenVINO_Tutorials/openvino_cmake_demo/build/CMakeFiles/rebuild_cache.dir
+/mnt/g/src/inference/OpenVINO/OpenVINO_Tutorials/openvino_cmake_demo/build/CMakeFiles/edit_cache.dir
+/mnt/g/src/inference/OpenVINO/OpenVINO_Tutorials/openvino_cmake_demo/build/CMakeFiles/main.dir
+/mnt/g/src/inference/OpenVINO/OpenVINO_Tutorials/openvino_cmake_demo/build/CMakeFiles/detector.dir

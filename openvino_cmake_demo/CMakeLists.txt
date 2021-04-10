@@ -8,7 +8,6 @@ INCLUDE_DIRECTORIES(
     /opt/intel/openvino/deployment_tools/ngraph/include/
 )
 
-#查找必要的依赖包
 FIND_PACKAGE(OpenCV REQUIRED)
 SET(InferenceEngine_DIR "/opt/intel/openvino/deployment_tools/inference_engine/share")
 FIND_PACKAGE(InferenceEngine)

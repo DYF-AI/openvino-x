@@ -9,3 +9,12 @@
   **Work flow: Pytorch-->ONNX-->OpenVINO**
 
 - [Model visualization](https://netron.app/)
+
+
+- [yolov5(v4.0)](https://github.com/ultralytics/yolov5)
+  ```shell
+  cd yolov5
+  source script/run.sh
+  pip_      # requirements
+  detect    # test
+  export_onnx  # onnx

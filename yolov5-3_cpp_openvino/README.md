@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/54470509/114299193-9f452400-9aec-11eb-88a4-98680121f67e.png)
+![image](https://user-images.githubusercontent.com/54470509/114299193-9f452400-9aec-11eb-88a4-98680121f67e.png#pic_center)
 ## yolov5.3 OpenVINO Cpp
 
 最新的yolo5 v4.0的模型暂时不能使用

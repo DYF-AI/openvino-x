@@ -1,3 +1,4 @@
+file:///media/dyf-ai/Code/src/inference/OpenVINO/projectX/yolov5_v3_cpp_openvino/demo/build/result.jpg![image](https://user-images.githubusercontent.com/54470509/114299193-9f452400-9aec-11eb-88a4-98680121f67e.png)
 ## yolov5.3 OpenVINO Cpp
 
 最新的yolo5 v4.0的模型暂时不能使用

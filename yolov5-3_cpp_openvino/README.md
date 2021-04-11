@@ -7,7 +7,6 @@ cite：https://github.com/fb029ed/yolov5_cpp_openvino
 https://github.com/DYF-AI/yolov5_cpp_openvino add classify
 
 ```shell
-cd ./demo
 mkdir build 
 cd build
 cmake ..

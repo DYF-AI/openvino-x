@@ -3,8 +3,7 @@
 int main(int argc, char const *argv[])
 {
     Detector* detector = new Detector;
-    string xml_path = "../res/yolov5s.xml";
-    // string xml_path = "../weights/yolov5s.xml";
+    string xml_path = "../weights/yolov5s.xml";
     detector->init(xml_path,0.1,0.5);
     /*
     VideoCapture capture;
@@ -26,7 +25,7 @@ int main(int argc, char const *argv[])
         waitKey(1);
     }
     */
-    Mat src = imread("../res/bus.jpg");
+    Mat src = imread("../images/bus.jpg");
     Mat osrc = src.clone();
     resize(osrc,osrc,Size(640,640));
     vector<Detector::Object> detected_objects;
@@ -55,5 +54,6 @@ int main(int argc, char const *argv[])
 			0.5,
 			cv::Scalar(0, 0, 0));
     imshow("result",osrc);
+    imwrite("../output/result.jpg", osrc);
     waitKey(0);
 }

@@ -9,11 +9,11 @@ bool Detector::parse_yolov5(const Blob::Ptr &blob,int net_grid,float cof_thresho
     vector<Rect>& o_rect,vector<float>& o_rect_cof,
     vector<int> &classId){
     vector<int> anchors = get_anchors(net_grid);
-   LockedMemory<const void> blobMapped = as<MemoryBlob>(blob)->rmap();
-   const float *output_blob = blobMapped.as<float *>();
-   //80个类是85,一个类是6,n个类是n+5
-   //int item_size = 6;
-   int item_size = 85;
+    LockedMemory<const void> blobMapped = as<MemoryBlob>(blob)->rmap();
+    const float *output_blob = blobMapped.as<float *>();
+    //80个类是85,一个类是6,n个类是n+5
+    //int item_size = 6;
+    int item_size = 85;
     size_t anchor_n = 3;
     for(int n=0;n<anchor_n;++n)
         for(int i=0;i<net_grid;++i)

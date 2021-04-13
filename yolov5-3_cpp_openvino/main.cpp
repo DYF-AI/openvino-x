@@ -3,7 +3,7 @@
 int main(int argc, char const *argv[])
 {
     Detector* detector = new Detector;
-    string xml_path = "../weights/yolov5s.xml";
+    string xml_path = "../weights/yolov5s_4_op10_dynamic.xml";
     detector->init(xml_path,0.1,0.5);
     // /*
     // VideoCapture capture;

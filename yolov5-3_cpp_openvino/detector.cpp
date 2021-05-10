@@ -93,7 +93,7 @@ bool Detector::init(string xml_path,double cof_threshold,double nms_area_thresho
     }
     //获取可执行网络
     //_network =  ie.LoadNetwork(cnnNetwork, "GPU");
-    _network =  ie.LoadNetwork(cnnNetwork, "CPU");
+    _network =  ie.LoadNetwork(cnnNetwork, "CPU");】‘’
     return true;
 }
 
